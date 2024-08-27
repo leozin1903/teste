@@ -15,7 +15,7 @@ height: 300px;
 margin-left: 1115px;
     
 }
-h1{text-align: center;
+ header h1{text-align: center;
     text-shadow: 3px 3px 3px blue;
     font-size: 60px;
     margin-top: -250px;
@@ -25,19 +25,40 @@ h1{text-align: center;
         
 }
 #main .container{
-    background-color:blueviolet;
+    background-color:rgb(0, 0, 0);
     width:100%;
-    height: 700px;
+    height: 900px;
     display:grid;
     grid-template-columns:repeat(1,100%);
     grid-template-rows:repeat(1,700px);
 }
-h2{
+ main h2{
 font-size: 40px;
 margin-top: 10px;
  color: white;   
  margin-left:60px;
  margin-top: 50px;
+}
+ main h3{
+ font-size: 20px;
+margin-top: 10px;
+ color: white;   
+ margin-left:62px;
+ margin-top: -600px;
+}
+img{
+width:90%;
+height:400px;
+margin-left: 62px; 
+margin-top: -625px; 
+}
+ main h4{
+    font-size: 20px;
+    margin-top: 10px;
+     color: white;   
+     margin-left:62px;
+     margin-top: -250px; 
+     margin-right: 62px;  
 }
 footer{
 background-color: blue;
@@ -51,13 +72,81 @@ background-color: blue;
 } 
 .left-footer{
 background-color: black;
-height:400px;    
+height:450px;    
+}
+.left-footer h1{
+    font-size: 20px;
+    margin-top: 10px;
+     color: white;   
+     margin-left:62px;
+     margin-top: -230px; 
+     margin-right: 62px;  
+       
+}
+.left-footer img{
+width: 70%;
+height: 170px;
+margin-top: 90px;
+margin-left: 63px;
+
+}
+.left-footer h2{
+    font-size: 20px;
+    margin-top: 10px;
+     color: white;   
+     margin-left:62px;
+     margin-top: 250px; 
+     margin-right: 62px;  
 }
 .center-footer{
- background-color:yellow;
- height: 400px;   
+ background-color:rgb(0, 0, 0);
+ height: 450px;   
 }
+ .center-footer h3{
+    font-size: 20px;
+    margin-top: 30px;
+     color: white;   
+     margin-left:62px;
+    
+     margin-right: 62px;  
+ }
+ .center-footer h4{
+    font-size: 20px;
+    margin-top: 10px;
+     color: white;   
+     margin-left:62px;
+     margin-top: 250px; 
+     margin-right: 62px;  
+ }
+ .center-footer img{
+    width: 70%;
+height: 170px;
+margin-bottom: 195px;
+margin-left: 63px;
+ }
 .right-footer{
- background-color: blueviolet;
- height:400px;   
+ background-color:rgb(0, 0, 0);
+ height:450px;   
 }
+.right-footer h5{
+    font-size: 20px;
+    margin-top: 30px;
+     color: white;   
+     margin-left:62px;
+    
+     margin-right: 62px;  
+ }
+ .right-footer h6{
+    font-size: 20px;
+    margin-top: 10px;
+     color: white;   
+     margin-left:62px;
+     margin-top: 250px; 
+     margin-right: 62px;  
+ }
+ .right-footer img{
+    width: 70%;
+height: 170px;
+margin-bottom: 235px;
+margin-left: 63px;
+ }
